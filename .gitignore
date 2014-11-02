@@ -3,3 +3,6 @@ build
 .cproject
 .project
 .ycm*
+/build_mac/
+/build_mac2/
+/CMakeCache.txt
