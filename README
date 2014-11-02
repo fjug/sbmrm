@@ -58,6 +58,17 @@ Compile
 
     $ make
 
+Compile on a MAC
+----------------
+
+  Use ccmake instead of calling cmake from within folder 'build':
+  $ ccmake ..
+
+  Then, using advanced options, change C++ compiler from clang to
+  e.g. g++ 4.9 that can be installed via MacPorts. (After installation 
+  via 'sudo port install gcc49', point cmake to the folder 
+  '/opt/local/bin/g++-mp-4.9')
+
 Usage
 -----
 
